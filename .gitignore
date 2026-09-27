@@ -1,0 +1,82 @@
+# ==============================================================================
+# PlatformIO
+# ==============================================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual Environments (venv, virtualenv, conda)
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.conda/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python GUI specific cache & compiled UI/RC
+ui_*.py
+*_rc.py
+.qmake.stash
+
+# ==============================================================================
+# Visual Studio Code
+# ==============================================================================
+.vscode/*
+
+*.code-workspace
+
+# ==============================================================================
+# OS Generated Files & Temporary
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Local Environment Variables & Logs
+*.log
+.env
+.env.local
