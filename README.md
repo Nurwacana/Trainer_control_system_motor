@@ -129,4 +129,4 @@ Pastikan lingkungan Python (versi 3.8+) telah terinstal di komputer.
 
 ## Lisensi & Kontribusi
 
-Proyek ini dikembangkan untuk tujuan riset dan edukasi trainer kendali motor. Silakan buat *issue* atau ajukan *pull request* untuk pengembangan lebih lanjut.
+Proyek ini dilisensikan di bawah [MIT License](LICENSE). Silakan buat *issue* atau ajukan *pull request* untuk pengembangan lebih lanjut.
