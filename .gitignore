@@ -80,3 +80,8 @@ $RECYCLE.BIN/
 *.log
 .env
 .env.local
+
+# Temporary & scratch test files
+coba.py
+coba_*.py
+try_*.py
