@@ -368,7 +368,7 @@ class MainWindow(QMainWindow):
         
         # Rentang RPM: -600.0 hingga 600.0, Waktu: 30 detik[cite: 10]
         self.plot_widget.setYRange(-600.0, 600.0, padding=0.0)
-        self.plot_widget.setXRange(0.0, 30.0, padding=0.0)
+        self.plot_widget.setXRange(0.0, 15.0, padding=0.0)
         self.plot_widget.setMouseEnabled(x=False, y=False)
         self.plot_widget.setLabel('bottom', "Waktu", units='s')
         self.plot_widget.setLabel('left', "Nilai", units='RPM / PWM')
