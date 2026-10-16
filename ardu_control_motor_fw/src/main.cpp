@@ -436,7 +436,12 @@ void loop() {
   uint32_t now = millis();
 
   // 1. Loop Kontrol PID (100 Hz / 10 ms)
-  if(now - prev_pid > 10) {
+  uint32_t time_delay = (uint32_t)(Rx_data.sample_time * 1000.0f);
+  if (time_delay < 1) {
+    time_delay = 1;
+  }
+
+  if(now - prev_pid > time_delay) {
     prev_pid = now;
     
     PID_Set_Setpoint(&pid, Rx_data.target_rpm);
